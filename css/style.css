@@ -147,6 +147,14 @@ img {
         flex-direction: column;
         align-items: center;
     }  
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
     
 }
 
