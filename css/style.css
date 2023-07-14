@@ -130,6 +130,11 @@ img {
 
 @media screen and (max-width: 480px) {
 
+    .steps .container {
+        background-color: #eebbc3;
+        max-width: fit-content;
+    }
+
     .container {
         max-width: 100%;
         display: flex;
@@ -146,12 +151,26 @@ img {
 }
 
 
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
-
-@media screen and (max-width: 768px) {
+    .steps .container {
+        background-color: #eebbc3;
+    }
 
     .container {
-        max-width: 768px;
+        max-width: fit-content;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width:1160px) {
+
+    .steps .container {
+        background-color: #eebbc3;
+    }
+
+    .container {
+        max-width: fit-content;
     }
     
 }
